@@ -42,3 +42,19 @@
     text-decoration: none;
     color: #908e9b;
 }
+
+
+
+/*======== Media Querys ===========*/
+
+@media screen and (max-width: 400px) {
+    .cont__login{
+        width: 100%;
+    }
+
+    .form__login{
+        width: 100%;
+        padding: 1rem;
+    }
+
+}
