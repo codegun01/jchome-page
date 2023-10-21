@@ -1,0 +1,98 @@
+body{
+    background: #f2f5f5;
+}
+
+
+.titulo__contacForm{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.form__contact{
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cont__titCont{
+    margin-bottom: 50px;
+   
+}
+
+.cont__formContac{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+    
+}
+
+.formulario__contact{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.subt__form{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.txt__area{
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+
+.body__contact{
+    background: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.inicio__tit{
+    margin-bottom: 45px;
+    font-size: 14px;
+}
+
+.titulo__bodyc{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.subt__bodyc{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/*======= Media Querys ==========*/
+
+@media screen and (max-width: 400px) {
+
+    .formulario__contact{
+        width: 100%;
+    }
+
+    .form__contact{
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    .body__contact{
+        width: 100%;
+    }
+    
+}

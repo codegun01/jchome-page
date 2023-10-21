@@ -1,0 +1,540 @@
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    padding: 60px 0;
+    margin: auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    height: 100%;
+}
+
+.titulo__banner{
+    font-size: 65px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.subt__banner{
+    font-size: 25px;
+    font-weight: 200 !important;
+    text-align: center;
+}
+
+
+/*========== Inicio de la section destacados =========*/
+
+
+
+.titulo__card{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.subt__card{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+
+
+.cont__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.img__card{
+    width: 100%;
+    height: 80%;
+}
+
+.card{
+    width: 24%;
+    margin-bottom: 150px;
+}
+
+.titulo__body{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.subt__body{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.card__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn__link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: dodgerblue;
+    border-radius: 5px;
+}
+
+
+/* ====== category section =========== */
+
+
+
+
+.category1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.category__resi{
+    width: 29%;
+    height: 525px;
+    border-radius: 5px;
+}
+
+.resi1{
+    height: 250px;
+    margin-bottom: 25px;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+
+.titulo__resi1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.subt__resi1{
+    font-weight: 300;
+}
+
+
+.icon__cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+.btn__cat{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.depart{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%), url(../image/depart.PNG);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+
+.estudio{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%),url(../image/estudio.PNG);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 1rem;
+    color: white;
+}
+
+.icon__estudio{
+    margin-top: 425px;
+}
+
+.casa{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%), url(../image/casaSection.PNG);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.parcela{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%),url(../image/parcela.PNG);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.category2{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.resi2{
+    width: 30%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.oficina{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%),url(../image/oficina.PNG);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.comercial{
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.18) 4%, rgba(10, 10, 10, 0.18) 100%),url(../image/localComercial.PNG);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* ==== section contact ==========*/
+
+
+.sec__contact{
+    background-image: linear-gradient(to top, rgba(4, 2, 74, 0.349) 4%, rgba(2, 3, 66, 0.331) 100%), url(../image/sectCont.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 125vh;
+}
+
+.cont__contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont__body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    width: 50%;
+    align-self: center;
+}
+
+.card__contact{
+    color: white;
+    width: 45%;
+    height: 250px;
+    
+
+}
+
+.tit__contact{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.titulo__contact{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.subt__contact{
+    font-weight: 300;
+}
+
+
+/*======= formulario =========*/
+.cont__form{
+    background: white;
+    height: 750px ;
+    width: 45%;
+    padding: 3rem;
+}
+
+
+.titulo__form{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+.form__input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input__form{
+    height: 45px;
+    border: 1px solid lightgrey;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.cont__input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    width: 49%  !important;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.btn__form{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn__form:hover{
+    opacity: 0.8;
+}
+
+
+/*======== section testimonios ============*/
+
+.titulo__testi{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+.subt__testi{
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 55px;
+
+}
+
+.cont__cardT{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+/*linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)*/
+
+.card__testi{
+    width: 32%;
+    height: 425px;
+    padding: 2rem;
+    background-color: #d5eaf7;
+    border-radius: 5px;
+}
+
+.info__test{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont__test{
+    margin-bottom: 95px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.info__client{
+    width: 70%;
+    font-weight: 300;
+    color: gray;
+}
+
+.img__test{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.conte__test{
+    height: 160px;
+    margin-bottom: 100px;
+}
+
+footer{
+    background: #154c79;
+    height: 400px;
+}
+
+.contacto{
+    width: 30%;
+}
+
+.cont__foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo__foot{
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.con__foot{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.iconf{
+    color: white;
+    font-weight: 300;
+}
+
+.tit__foot{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
+/* ======== media querys ========*/
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    .titulo__banner{
+        font-size: 20px;
+    }
+
+    .subt__banner{
+        font-size: 10px;
+    }
+
+    .titulo__card{
+        font-size: 20px;
+    }
+
+    .subt__card{
+        font-size: 10px;
+    }
+    
+    .card{
+        width: 100%;
+    }
+
+
+    .category1{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .resi1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .category__resi{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .category2{
+        width: 100%;
+    }   
+    
+    .resi2{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .card__contact{
+        width: 100%;
+    }
+
+    .cont__body{
+        width: 100%;
+    }
+
+    .titulo__form{
+        font-size: 20px;
+    
+    }
+
+    .cont__form{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+
+    .sec__contact{
+        height: 2000px;
+    }
+
+    .card__testi{
+        width: 100%;
+        margin-bottom: 35px;
+        padding: 0.9rem;
+    }
+
+
+    .contacto{
+        width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .log__foot{
+        order: -1;
+    }
+
+    footer{
+        height: 1000px;
+    }
+}

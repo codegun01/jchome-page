@@ -1,0 +1,44 @@
+.cont__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+}
+
+.form__login{
+    background: white;
+    width: 40%;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.titulo__login{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.formulario__login{
+    width: 90%;
+    margin: auto;
+}
+
+.input__login{
+    height: 45px;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.recuperacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    text-decoration: none;
+    color: #908e9b;
+}
